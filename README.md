@@ -8,3 +8,5 @@
     - Eder Pereira	SP3023134
     - Gawan Augusto Gomes Ferreira	SP302170X
     - Matheus Augusto do Nascimento Dias SP3030687
+
+* Projeto: Agenda telefônica em PHP (criação, edição, consulta e remoção de contatos).
