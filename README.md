@@ -9,4 +9,4 @@
     - Gawan Augusto Gomes Ferreira	SP302170X
     - Matheus Augusto do Nascimento Dias SP3030687
 
-* Projeto: Agenda telefônica em PHP (criação, edição, consulta e remoção de contatos).
+* Projeto: Agenda de contatos em PHP (criação, edição, consulta e remoção de contatos).
