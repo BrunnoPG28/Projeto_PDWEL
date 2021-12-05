@@ -7,7 +7,7 @@ CREATE TABLE `contatos` (
   `descricao` varchar(100) NOT NULL DEFAULT '0',
   `telefone` varchar(50) NOT NULL DEFAULT '0',
   `email` varchar(50) NULL,
-  `endereço` varchar(50) NULL
+  `endereco` varchar(50) NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
