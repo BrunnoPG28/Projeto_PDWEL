@@ -1,3 +1,6 @@
+--rodar TODOS os comandos sql nessa ordem
+
+--SET PASSWORD FOR root@localhost='';
 --CREATE DATABASE agenda;
 --use agenda;
 
@@ -12,13 +15,11 @@ CREATE TABLE `contatos` (
 
 
 -- Índices para tabela `tbagenda`
---
 ALTER TABLE `contatos`
+
   ADD KEY `Index 1` (`id`);
 
---
 -- AUTO_INCREMENT de tabela `tbagenda`
---
 ALTER TABLE `contatos`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=177;
   
