@@ -42,4 +42,5 @@ class loginController extends controller
     	unset($_SESSION['admin']);
         echo "<meta http-equiv='refresh' content=0;url=". BASE_URL . "login>";    	
     }
-}        
+}
+?>
