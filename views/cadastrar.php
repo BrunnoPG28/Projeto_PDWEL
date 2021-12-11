@@ -20,7 +20,7 @@
    <body>
       <div class="container">
          <form method="POST" class="form-signin" style="max-width:300px;margin:auto">
-            <h3 class="form-signin-heading">Cadastrar Telefone</h3>
+            <h3 class="form-signin-heading" style="text-align:center; background-color:#DAA520; border-radius: 10px;">Cadastrar Contato</h3>
             <?php if(isset($aviso) && !empty($aviso)): ?>
             <div class="alert alert-danger" role="alert">
                <?php echo $aviso; ?>
@@ -38,7 +38,7 @@
             <input type="text" name="endereco" id="endereco" class="form-control" placeholder="Endereço" ><br/>
 
 
-            <button class="btn btn-lg btn-primary btn-block" type="submit" >Salvar</button>
+            <button class="btn btn-lg btn-primary btn-block btn-success" type="submit" >Salvar</button>
             <a href="<?php echo BASE_URL ?>agenda/" class="btn btn-lg btn-secondary btn-block">Voltar</a>
          </form>
       </div>

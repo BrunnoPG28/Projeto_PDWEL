@@ -1,13 +1,13 @@
 <?php
    global $config;
    ?>
-<h3>Agenda</h3>
+<div style="background-color:#DAA520; border-radius: 10px; width:300px;"><h1 style="text-align:center">Meus Contatos</h1></div>   
 <div class="alfabeto" >
    <ul>
       <?php $conta = 0;
          $modificar = 0;
          $cor = array(
-             '#98b8d0',
+             '#DAA520',
              '#AAA'
          ); ?>    
       <?php $cont = 1;
@@ -51,8 +51,11 @@
          endforeach; ?>
    </ul>
 </div>
-<a class = "btn btn-default" style="width:1140px"
-   href="<?php echo BASE_URL ?>agenda/cadastrar">Adicionar</a>
+<div style="text-align:center">
+   <a class = "btn btn-success" style="width:300px"
+      href="<?php echo BASE_URL ?>agenda/cadastrar">Adicionar</a>
+</div>
+
 <br>
 <br>
 <br>
@@ -70,7 +73,7 @@
          <th>
             <center>Descrição</center>
          </th>
-         <th width="50">
+         <th width="100">
             <center>Telefone</center>
          </th>
          <th>
@@ -111,9 +114,9 @@
    <?php
       if ($exibir == true)
       {
-          echo "<tr><td colspan=5 
+          echo "<tr><td colspan=7 
                         style='width: 100%; 
-                               background-color:#98b8d0;
+                               background-color:#DAA520;
                                padding:0;
                                font-size: 25px; ';
                             >
@@ -146,14 +149,16 @@
       <td>
          <center>
             <a class = "btn btn-default" style="width:65px; margin-bottom: 3px;" href="<?php echo BASE_URL ?>agenda/editar/<?php echo $ag['id']; ?>">Editar</a>
-            <a onclick="delete_field(<?php echo $ag['id']; ?> );" class = "btn btn-danger"  style="width:65px; margin-bottom: 3px;">Excluir</a>
+            
+            <a onclick="delete_field(<?php echo $ag['id']; ?> );" class = "btn btn-danger"  style="width:65px; margin-bottom: 3px;" data-bs-toggle="modal" data-bs-target="#excluir">Excluir</a>
+            
             <script>
                function delete_field(campo)
                {
                   if (confirm("Tem certeza que deseja excluir?")) 
                   {
                      window.location.href = '<?php echo BASE_URL ?>' + 'agenda/excluir/' + campo;
-                     alert('Excluido com sucesso!');  
+                     alert('Excluído com sucesso!');  
                   }
                }
                
@@ -169,7 +174,7 @@
       <?php $conta = 0;
          $modificar = 0;
          $cor = array(
-             '#98b8d0',
+             '#DAA520',
              '#AAA'
          ); ?>    
       <?php $cont = 1;
