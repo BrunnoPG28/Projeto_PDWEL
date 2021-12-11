@@ -70,8 +70,14 @@
          <th>
             <center>Descrição</center>
          </th>
-         <th>
+         <th width="50">
             <center>Telefone</center>
+         </th>
+         <th>
+            <center>E-mail</center>
+         </th>
+         <th>
+            <center>Endereço</center>
          </th>
          <th>
             <center>Ações</center>
@@ -128,11 +134,15 @@
       <td width="2">
          <center><?php echo $cont++; ?></center>
       </td>
-      <td><?php echo utf8_encode($ag['nome']); ?></td>
-      <td><?php echo utf8_encode($ag['descricao']); ?></td>
+      <td><?php echo ($ag['nome']); ?></td>
+      <td><?php echo ($ag['descricao']); ?></td>
       <td>
          <center><?php echo $ag['telefone']; ?></center>
       </td>
+      <td>
+         <center><?php echo $ag['email']; ?></center>
+      </td>
+      <td><?php echo ($ag['endereco']); ?></td>
       <td>
          <center>
             <a class = "btn btn-default" style="width:65px; margin-bottom: 3px;" href="<?php echo BASE_URL ?>agenda/editar/<?php echo $ag['id']; ?>">Editar</a>

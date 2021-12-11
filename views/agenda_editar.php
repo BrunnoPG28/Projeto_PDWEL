@@ -17,6 +17,14 @@
     <input type="text" class="form-control" placeholder="Telefone" id="telefone" name="telefone" 
     value="<?php echo $agenda['telefone'] ;?>"> </input>
   </div>
+  <div class="form-group">
+    <input type="email" class="form-control" placeholder="E-mail" id="email" name="email" 
+    value="<?php echo $agenda['email'] ;?>"> </input>
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Endereço" id="endereco" name="endereco" 
+    value="<?php echo $agenda['endereco'] ;?>"> </input>
+  </div>
   <button type="submit" class="btn btn-primary">Salvar</button>
 
 </form>

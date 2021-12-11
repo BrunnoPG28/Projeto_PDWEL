@@ -32,6 +32,12 @@
             <input type="text" name="descricao" id="descricao" class="form-control" placeholder="Descrição" ><br/>
             <label for="telefone" class="sr-only">Telefone</label>
             <input type="text" name="telefone" id=telefone class="form-control" placeholder="Telefone" required><br/>
+            <label for="email" class="sr-only">E-mail</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="E-mail" ><br/>
+            <label for="endereco" class="sr-only">Endereço</label>
+            <input type="text" name="endereco" id="endereco" class="form-control" placeholder="Endereço" ><br/>
+
+
             <button class="btn btn-lg btn-primary btn-block" type="submit" >Salvar</button>
             <a href="<?php echo BASE_URL ?>agenda/" class="btn btn-lg btn-secondary btn-block">Voltar</a>
          </form>

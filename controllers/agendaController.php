@@ -30,9 +30,11 @@ class agendaController extends controller
 				$nome = strtoupper (addslashes($_POST['nome']) );
 				$desc = addslashes($_POST['descricao']);
 				$tel = addslashes($_POST['telefone']);
+				$email = addslashes($_POST['email']);
+				$ender = addslashes($_POST['endereco']);
 
 				$a = new Agenda();
-				$a->cad($nome, $desc, $tel);
+				$a->cad($nome, $desc, $tel, $email, $ender);
 
 				echo "<meta http-equiv='refresh' content=0;url=". BASE_URL . "agenda>";    	
 			}
@@ -58,8 +60,10 @@ class agendaController extends controller
 				$nome = strtoupper (addslashes($_POST['nome']) );
 				$desc = addslashes($_POST['descricao']);
 				$tel = addslashes($_POST['telefone']);
+				$email = addslashes($_POST['email']);
+				$ender = addslashes($_POST['endereco']);
 
-				$e->editar($nome, $desc, $tel, $id);
+				$e->editar($nome, $desc, $tel, $email, $ender, $id);
 
 				echo "<meta http-equiv='refresh' content=0;url=". BASE_URL . "agenda>";    	
 			}
