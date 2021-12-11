@@ -1,8 +1,8 @@
---rodar TODOS os comandos sql nessa ordem
+-- rodar TODOS os comandos sql nessa ordem
 
---SET PASSWORD FOR root@localhost='';
---CREATE DATABASE agenda;
---use agenda;
+SET PASSWORD FOR root@localhost='';
+CREATE DATABASE agenda;
+use agenda;
 
 CREATE TABLE `contatos` (
   `id` int(11) UNSIGNED NOT NULL,
@@ -22,4 +22,4 @@ ALTER TABLE `contatos`
 ALTER TABLE `contatos`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=177;
   
---select * from contatos;
+-- select * from contatos;
