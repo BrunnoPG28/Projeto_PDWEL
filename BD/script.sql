@@ -20,6 +20,6 @@ ALTER TABLE `contatos`
 
 -- AUTO_INCREMENT de tabela `tbagenda`
 ALTER TABLE `contatos`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=177;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
   
 -- select * from contatos;
