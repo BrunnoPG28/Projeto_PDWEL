@@ -16,7 +16,6 @@ CREATE TABLE `contatos` (
 
 -- Índices para tabela `tbagenda`
 ALTER TABLE `contatos`
-
   ADD KEY `Index 1` (`id`);
 
 -- AUTO_INCREMENT de tabela `tbagenda`
