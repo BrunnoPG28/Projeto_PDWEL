@@ -31,7 +31,7 @@ class Agenda extends model
 	    return $array;
 	}
 
-	public function cad($nome, $desc, $tel, $emai, $ender)
+	public function cad($nome, $desc, $tel, $email, $ender)
 	{
 		$sql = "insert into contatos set nome = '$nome', descricao='$desc', telefone='$tel',  email='$email', endereco='$ender'";
 		$sql = $this->db->query($sql) ;
