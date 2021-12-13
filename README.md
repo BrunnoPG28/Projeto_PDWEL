@@ -14,6 +14,6 @@
 * Instruções para deploy:
     1. Baixe o zip do projeto no github. Descompacte a pasta "Projeto_PDWEL-main.zip" dentro da pasta "htdocs" do XAMPP e depois renomeie a pasta de "Projeto_PDWEL-main" para   "agenda".
     2. Inicie os serviços apache e mysql pelo "XAMPP" ou "Serviços" do Windows.
-    3. Execute TODOS os comandos do arquivo script.sql (path: C:\xampp\htdocs\agenda\BD\script.sql) no Mysql. (é necessário rodar o comando SQL, presente no script.sql, que seta a senha do localhost como "")
+    3. Execute TODOS os comandos do arquivo script.sql (path: C:\xampp\htdocs\agenda\BD\script.sql) no Mysql. (é necessário rodar o comando SQL, presente no script.sql, que seta a senha do localhost como '')
     4. Cole https://localhost/agenda no navegador para ir para a home do projeto.
     5. Se o navegador dizer que não é seguro, clique em Avançado e depois em prosseguir para localhost.
